@@ -28,7 +28,7 @@ public class Home extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		String opcion = request.getParameter("opcion");
-		Process p = new Process();
+		Process p = new Process();  
 		response.getWriter().append("Served at: "+p.upper(opcion)+" longitud: "+p.getLong(opcion) ).append(request.getContextPath());
 	}
 
