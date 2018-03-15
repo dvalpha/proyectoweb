@@ -29,7 +29,7 @@ public class Home extends HttpServlet {
 		// TODO Auto-generated method stub
 		String opcion = request.getParameter("opcion");
 		Process p = new Process();
-		response.getWriter().append("Served at: "+opcion+" longitud: "+p.getLong(opcion) ).append(request.getContextPath());
+		response.getWriter().append("Served at: "+p.upper(opcion)+" longitud: "+p.getLong(opcion) ).append(request.getContextPath());
 	}
 
 	/**
