@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>Bienvenido a Git Test</h1>
-<a href="Home?opcion=comer">Comer hoy al medio dia</a>
+<a href="Home?opcion=comer">Comer hoy al medio dia 2</a>
 
 </body>
 </html>
